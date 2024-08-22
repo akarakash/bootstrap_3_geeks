@@ -632,7 +632,8 @@ button.owl-next {
     top: 468px;
   }
   .build-better .bol {
-    line-height: 60px;
+    line-height: 47px;
+    font-size: 50px !important;
   }
   .build-better .skill {
     width: 95%;
@@ -660,6 +661,7 @@ button.owl-next {
   }
   .faster .better {
     width: 60%;
+    padding-top: 25px;
   }
   .top-courses {
     margin-top: 100px;
@@ -713,4 +715,10 @@ button.owl-next {
   .experts .classes {
     line-height: 50px;
   }
+}
+@media (max-width:568px) {
+  .skill{
+    font-size: 18px !important;
+  }
+  
 }
